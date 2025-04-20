@@ -1,0 +1,35 @@
+body {
+  font-family: Georgia, serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  background: #555;
+  color: white;
+  padding: 15px;
+}
+nav a {
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
+}
+form {
+  padding: 20px;
+}
+input, textarea {
+  width: 100%;
+  max-width: 400px;
+  padding: 8px;
+}
+button {
+  padding: 10px 20px;
+  background: #222;
+  color: white;
+  border: none;
+}
+@media (max-width: 600px) {
+  nav a {
+    display: block;
+    margin-bottom: 10px;
+  }
+}
